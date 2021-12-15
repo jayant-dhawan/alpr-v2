@@ -1,6 +1,5 @@
 fastapi==0.70.1
 manage-fastapi==1.1.1
-matplotlib==3.5.1
 numpy==1.21.4
 opencv-python==4.5.4.60
 pytesseract==0.3.8
