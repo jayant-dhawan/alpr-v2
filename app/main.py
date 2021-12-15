@@ -24,4 +24,4 @@ def get_application():
 app = get_application()
 
 app.include_router(routes.router)
-app.mount("/static", StaticFiles(directory=str(Path().absolute()) + '/app/static'), name="static")
+app.mount("/static", StaticFiles(directory=str(Path(__file__).absolute()).replace('/main.py', '/static')), name="static")
