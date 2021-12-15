@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from pathlib import Path
 
 from app.core.config import settings
 from app.routes import routes
@@ -23,4 +24,4 @@ def get_application():
 app = get_application()
 
 app.include_router(routes.router)
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+app.mount("/static", StaticFiles(directory=str(Path().absolute()) + '/app/static'), name="static")
