@@ -1,0 +1,9 @@
+fastapi==0.70.1
+manage-fastapi==1.1.1
+numpy==1.21.4
+opencv-python==4.5.4.60
+pytesseract==0.3.8
+python-dotenv==0.19.2
+python-multipart==0.0.5
+pytest==6.2.5
+uvicorn==0.15.0
