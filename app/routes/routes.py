@@ -9,7 +9,7 @@ router = APIRouter()
 
 @router.get("/")
 async def home() -> str:
-    return FileResponse('./app/routes/index.html')
+    return FileResponse('./app/routes/views/index.html')
 
 
 @router.post("/read-plate")
