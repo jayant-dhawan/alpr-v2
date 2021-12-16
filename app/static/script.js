@@ -13,7 +13,7 @@ var app = new Vue({
     methods: {
         switchTheme() {
             const theme = document.getElementById('theme');
-            this.theme === 'dark' ? this.switchThemeMessage = 'Turn off dark mode' : this.switchThemeMessage = 'Turn on dark mode';
+            this.theme === 'dark' ? this.switchThemeMessage = 'Turn on dark mode' : this.switchThemeMessage = 'Turn off dark mode';
             this.theme === 'dark' ? this.theme = 'light' : this.theme = 'dark';
             theme.setAttribute('data-theme', this.theme);
         },
