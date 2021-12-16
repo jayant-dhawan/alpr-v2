@@ -1,6 +1,18 @@
 # alpr-web
 
-This project was generated via [manage-fastapi](https://ycd.github.io/manage-fastapi/)! :tada:
+Project create for Hackathon at Codinova Technologies
+
+DEMO -> [click here](https://alpr-v2.herokuapp.com/)
+
+### Tech Used:
+- Backend
+    - FastApi
+    - OpenCV
+    - Pytesseract
+    - Pytest
+- Frontend
+    - VueJS
+    - Pico CSS
 
 ## License
 
